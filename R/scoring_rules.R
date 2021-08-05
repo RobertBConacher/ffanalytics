@@ -4,7 +4,7 @@
 #' @export
 scoring <- list(
   pass = list(
-    pass_att = 0, pass_comp = 0, pass_inc = 0, pass_yds = 0.04, pass_tds = 4,
+    pass_att = 0, pass_comp = 0, pass_inc = 0, pass_yds = 0.05, pass_tds = 6,
     pass_int = -3, pass_40_yds = 0,  pass_300_yds = 0, pass_350_yds = 0,
     pass_400_yds = 0
   ),
@@ -23,17 +23,17 @@ scoring <- list(
     sacks = 0, two_pts = 2
   ),
   kick = list(
-    xp = 1.0, fg_0019 = 3.0,  fg_2029 = 3.0, fg_3039 = 3.0, fg_4049 = 4.0,
-    fg_50 = 5.0,  fg_miss = 0.0
+    xp = 1.0, fg_0019 = 3.0,  fg_2029 = 3.0, fg_3039 = 3.0, fg_4049 = 3.0,
+    fg_50 = 3.0,  fg_miss = 0.0
   ),
   ret = list(
     all_pos = TRUE,
-    return_tds = 6, return_yds = 0
+    return_tds = 6, return_yds = 0.05
   ),
   idp = list(
     all_pos = TRUE,
-    idp_solo = 1, idp_asst = 0.5, idp_sack = 2, idp_int = 3,  idp_fum_force = 3,
-    idp_fum_rec = 2,  idp_pd = 1, idp_td = 6,  idp_safety = 2
+    idp_solo = 1.1, idp_asst = 0.55, idp_sack = 3.3, idp_int = 3.3,  idp_fum_force = 3.3,
+    idp_fum_rec = 3.3,  idp_pd = 1.1, idp_td = 6,  idp_safety = 4.4
   ),
   dst = list(
     dst_fum_rec = 2,  dst_int = 2, dst_safety = 2, dst_sacks = 1, dst_td = 6,
